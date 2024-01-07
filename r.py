@@ -26,6 +26,11 @@ def get_user_articles(username):
     url = "https://ccthere.com/user/" + username
     driver.get(url)
 
+#TODO: Instead of printing the text, write it to a file
+    
+#TODO: Write a function that takes in a URL and writes the article to a file
+    
+#TODO: Given a username, write a function that scrapes all the articles on their proile and writes them to file(s)
 
 driver.quit()
 
