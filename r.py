@@ -27,6 +27,10 @@ def get_user_articles(username):
     driver.get(url)
 
 #TODO: Instead of printing the text, write it to a file
+article = get_article(article_num)
+print(article)
+with open("article.txt", "w") as f:
+    f.write(article)
     
 #TODO: Write a function that takes in a URL and writes the article to a file
     

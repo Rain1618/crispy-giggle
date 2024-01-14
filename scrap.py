@@ -12,12 +12,13 @@ driver.get(url)
 #     b.click()
 
 #Get the text of the article
-article = driver.find_elements(By.XPATH, "//article")
+article = driver.find_elements(By.XPATH, "//article") 
 
 for paragraph in article:
     print(paragraph.text)
 
 #TODO: Instead of printing the text, write it to a file
+
     
 #TODO: Write a function that takes in a URL and writes the article to a file
     
